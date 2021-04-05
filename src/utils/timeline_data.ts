@@ -47,7 +47,7 @@ const data: Data[] = [
     hasAssignment: false,
   },
   {
-    title: "Quinta dia de projeto",
+    title: "Quinto dia de projeto",
     type: "Dia de código e gerenciamento",
     date: "09/04 - Sexta feira",
     content: "O quinto dia de projeto será além de continuar as tarefas para construir a aplicação, também será necessário que o grupo realize uma retrospectiva e tenha um tempo para refletir e entender o que poderia ter sido melhor, e como o projeto progrediu como um todo.",
@@ -56,7 +56,7 @@ const data: Data[] = [
     itemAssignment: 'https://alunos.kenzie.com.br/courses/28/assignments/3256?module_item_id=3658'
   },
   {
-    title: "Sexta dia de projeto",
+    title: "Sexto dia de projeto",
     type: "Dia de código e gerenciamento",
     date: "12/04 - Segunda feira",
     content: "O sexto dia deverá ter um planejamento do que será feito na semana, e partir para o código, visando construir o cerne da aplicação de proposta.",
