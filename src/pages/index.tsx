@@ -1,4 +1,3 @@
-import Link from "next/link";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -8,7 +7,7 @@ import { FiMapPin, FiMap } from "react-icons/fi";
 import styles from "./home.module.scss";
 import Button from "../components/Button";
 
-export default function Home() {
+export default function Home({ content }) {
   const clickHandle = (link: string): void => {
     window.open(link, "_blank");
   };
