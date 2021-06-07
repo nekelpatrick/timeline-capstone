@@ -34,7 +34,7 @@ const data: Data[] = [
     type: "Dia de código e gerenciamento",
     date: "09/06 - quarta-feira",
     content:
-      "O terceiro dia será o de apresentação do projeto, e onde o time deverá entregar um documento contendo o que foi decidido, qual aplicação será construída, qual problema irá resolver e também quais ferramentas o grupo irá utilizar no dia a dia.",
+      "O quarto dia será o primeiro dia em que o grupo irá começar a codar. Após separar as tasks, mapear requisitos, entender o problema, e todos estarem entendendo a solução, é dada a largada para abrir o seu editor e botar a mão na massa.",
     week: "Primeira semana",
     hasAssignment: false,
     itemAssignment:
@@ -46,7 +46,7 @@ const data: Data[] = [
     type: "Dia de código e gerenciamento",
     date: "10/06 - quinta-feira",
     content:
-      "O quarto dia será o primeiro dia em que o grupo irá começar a codar. Após separar as tasks, mapear requisitos, entender o problema, e todos estarem entendendo a solução, é dada a largada para abrir o seu editor e botar a mão na massa.",
+      "O quarto dia de projeto será focado na criação das features já planejadas do projeto.",
     week: "Primeira semana",
     hasAssignment: false,
   },
@@ -88,11 +88,9 @@ const data: Data[] = [
     type: "Dia de código e gerenciamento",
     date: "16/06 - quarta-feira",
     content:
-      "O oitavo dia é o dia final para a entrega do código, onde o grupo deverá entregar o repositório contendo a solução proposta.",
+      "O oitavo dia é mais um dia focado no código, lembrando sempre de seguir o planejamento, reportar dificuldades e focar no MVP",
     week: "Segunda semana",
-    hasAssignment: true,
-    itemAssignment:
-      "https://alunos.kenzie.com.br/courses/35/assignments/6246?module_item_id=7102",
+    hasAssignment: false,
   },
 
   {
@@ -100,7 +98,18 @@ const data: Data[] = [
     type: "Dia de gerenciamento",
     date: "17/06 - quinta-feira",
     content:
-      "O Nono dia, será o dia final do grupo trabalhando no Hábitos, o grupo deverá realizar a última retrospectiva e se preparar para partir para um próximo desafio! 🚀",
+      "O nono dia é o dia final para a entrega do código, onde o grupo deverá entregar o repositório contendo a solução proposta.",
+    week: "Segunda semana",
+    hasAssignment: true,
+    itemAssignment:
+      "https://alunos.kenzie.com.br/courses/35/assignments/6246?module_item_id=7102",
+  },
+  {
+    title: "Décimo dia de projeto",
+    type: "Dia de gerenciamento",
+    date: "18/06 - quinta-feira",
+    content:
+      "O Décimo dia, será o dia final do grupo trabalhando no Hábitos, o grupo deverá realizar a última retrospectiva e se preparar para partir para um próximo desafio! 🚀",
     week: "Segunda semana",
     hasAssignment: true,
     itemAssignment:
