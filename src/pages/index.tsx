@@ -15,7 +15,7 @@ export default function Home({ content }) {
   return (
     <div className={styles.container}>
       <h1>
-        <FiMap color="#007aff" /> Roadmap Capstone
+        <FiMap color="#007aff" /> Roadmap projeto: Hábitos
       </h1>
       <VerticalTimeline>
         {data.map((item) => (
@@ -45,7 +45,9 @@ export default function Home({ content }) {
             <p>{item.content}</p>
             {item.hasAssignment && (
               <Button onClick={() => clickHandle(item.itemAssignment)}>
-                {item.itemAssignment[12] === 'n' ? 'Link para o calendário' : 'Link da entrega'}
+                {item.itemAssignment[12] === "n"
+                  ? "Link para o calendário"
+                  : "Link da entrega"}
               </Button>
             )}
           </VerticalTimelineElement>

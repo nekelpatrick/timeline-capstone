@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
-          <title>Roadmap Capstone</title>
+          <title>Roadmap Habitos</title>
         </Head>
         <body>
           <Main />
